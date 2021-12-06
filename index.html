@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A HTML Website</title>
+</head>
+<body>
+    <nav>
+        <a href="https://github.com/JohnDMurphy" target="_blank"><h1>John/Murphy</h1></a>
+    </nav>
+    <main>
+        <h2>Hey there!</h2>
+        <p>My name is John, and this is my first website for the zero to mastery course. <br> I have made this website using only <strong>HTML</strong> and it is the first project in the course.</p>
+        
+        <h3>Some things i Enjoy doing</h3>
+        <ul>
+            <li>Gaming</li>
+            <li>Coding</li>
+            <li>Travel</li>
+        </ul>
+        
+        <form action="index.html" method="GET">
+            <table>
+                <tr>
+                    <th>
+                        <h3>
+                            Tell me about you!
+                        </h3>
+                    </th>
+                </tr>
+                <tr>
+                    <td><label for="fullName">Full Name:</label></td>
+                    <td><input type="text" name="fullName" required></td>
+                </tr>
+                <tr>
+                    <td><label for="country">Location:</label></td>
+                    <td><input type="text" name="country" required></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender</label></td>
+                    <td>
+                        Male<input type="radio" name="gender" value="male">
+                        Female<input type="radio" name="gender" value="female">
+                        Other<input type="radio" name="gender" value="other">                        
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="pets">Pets</label></td>
+                    <td>
+                        Dog<input type="checkbox" name="pets" value="dog">
+                        Cat<input type="checkbox" name="pets" value="cat">
+                        Other<input type="checkbox" name="pets" value="other">
+                        N/A<input type="checkbox" name="pets" value="na">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="hobbies">Hobbies</label></td>
+                    <td><textarea name="hobbies" id="" cols="21" rows="2" placeholder="What do you like to do?"></textarea></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Submit"></td>
+                </tr>
+            </table>
+            <img src="https://images.unsplash.com/photo-1528716321680-815a8cdb8cbe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80" width="300px" alt="Inspiring photo">
+             
+        </form>
+    </main>
+</body>
+</html>
